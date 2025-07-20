@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap" rel="stylesheet">
+    <style>
+        .thankspage-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Comfortaa', cursive;
+            margin: 0;
+            padding: 10px;
+            background: white;
+        }
+        .thankspage-image {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 20px;
+        }
+        .thankspage-heading {
+            font-size: 2rem;
+            color: #2C3391;
+            margin-bottom: 16px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        .thankspage-paragraph {
+            font-size: 1.1rem;
+            color: #2C3391;
+            margin-bottom: 0;
+            text-align: center;
+        }
+        a {
+            color: #BAD532;
+            text-decoration: underline;
+            font-weight: 700;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #2C3391;
+            background: #BAD53222;
+            border-radius: 4px;
+        }
+        @media (max-width: 500px) {
+            .thankspage-heading {
+                font-size: 1.3rem;
+            }
+            .thankspage-image {
+                width: 70px;
+                height: 70px;
+            }
+            .thankspage-paragraph {
+                font-size: 1rem;
+                padding: 0 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="thankspage-container">
+        <img class="thankspage-image" src="png.png" alt="thanks png">
+        <h1 class="thankspage-heading">Thank you for contacting us! We will get back to you soon.</h1>
+        <p class="thankspage-paragraph">
+            In the meantime, feel free to
+            <a href="https://www.linkedin.com/company/lumis-it/" target="_blank">connect with us on LinkedIn</a>
+            or check out the Lumis IT
+            <a href="https://lumisit.com/tech-hub-page/" target="_blank">Tech Hub</a>
+            for helpful IT resources.
+        </p>
+    </div>
+</body>
+</html>
